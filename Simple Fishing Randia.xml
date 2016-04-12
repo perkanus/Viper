@@ -1,0 +1,52 @@
+<TaskList Name="Simple Fishing Randis">
+  <Loops>1</Loops>
+  <Task>Goto WorldNav: -3868.64,1189.64,-82.29</Task>
+  <Task>Rest: 1000</Task>
+  <Task>Face Heading: 318</Task>
+  <Task>Rest: 1000</Task>
+  <Task>UseInventoryItem: Fishing Rod</Task>
+  <Task>Rest: 1000</Task>
+  <Task>WHILE: Inventory.FreeSlots &gt; 2</Task>
+  <Task>IF: Player.EquipmentDurability &lt; 1</Task>
+  <Task>UseInventoryItem: Fishing Rod</Task>
+  <Task>END IF</Task>
+  <Task>Rest: 1000</Task>
+  <Task>Cast Fishing Reel: 1</Task>
+  <Task>END WHILE</Task>
+  <Task>Rest: 1000</Task>
+  <Task>Press Key(s): 2</Task>
+  <Task>Rest: 1000</Task>
+  <Task>Press Key(s): 2</Task>
+  <Task>Rest: 1000</Task>
+  <Task>Press Key(s): 2</Task>
+  <Task>Rest: 1000</Task>
+  <Task>Goto WorldNav: -3859.59,1160.65,-77.73</Task>
+  <Task>Interact NPC: Sagotts</Task>
+  <Task>SellAllTradeItems: Sagotts</Task>
+  <Task>Rest: 1000</Task>
+  <Task>Press Keyi(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Keyi(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Keyi(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Keyi(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Keyi(s): 0</Task>
+  <Task>Rest: 100</Task>  
+  <Task>Press Keyi(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Keyi(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Keyi(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Keyi(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Keyi(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Keyi(s): 0</Task>
+  <Task>Rest: 100</Task>  
+  <Task>Press Keyi(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Goto Task Number: 1</Task>
+</TaskList>
