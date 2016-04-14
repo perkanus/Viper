@@ -1,0 +1,59 @@
+<TaskList Name="Simple Fishing Epheria">
+  <Loops>1</Loops>
+  <Task>Goto WorldNav: -3623.92,306.57,-81.7</Task>
+  <Task>Rest: 1000</Task>
+  <Task>Face Heading: 281</Task>
+  <Task>Rest: 1000</Task>
+  <Task>UseInventoryItem: Fishing Rod</Task>
+  <Task>Rest: 1000</Task>
+  <Task>WHILE: Inventory.FreeSlots &gt; 70</Task>
+  <Task>IF: Player.EquipmentDurability &lt; 1</Task>
+  <Task>UseInventoryItem: Fishing Rod</Task>
+  <Task>END IF</Task>
+  <Task>Rest: 1000</Task>
+  <Task>Cast Fishing Reel: 1</Task>
+  <Task>END WHILE</Task>
+  <Task>Rest: 1000</Task>
+  <Task>Press Key(s): 2</Task>
+  <Task>Rest: 1000</Task>
+  <Task>Press Key(s): 2</Task>
+  <Task>Rest: 1000</Task>
+  <Task>Press Key(s): 2</Task>
+  <Task>Rest: 1000</Task>
+  <Task>Goto WorldNav: -3561.33,271.13,-62.36</Task>
+  <Task>Interact NPC: Olivino Grolin</Task>
+  <Task>SellAllTradeItems: Olivino Grolin</Task>
+  <Task>Rest: 1000</Task> 
+  <Task>Goto WorldNav: -3566.09,300.08,-61.07</Task>
+  <Task>Face Heading: 81</Task>
+  <Task>RepairAllEquipment: Phyria</Task> 
+  <Task>OpenNPCShop: Phyria</Task>
+  <Task>SellInventoryItem: Fish Bones, ExactMatch</Task>
+  <Task>SellInventoryItem: Broken Hook, ExactMatch</Task>
+  <Task>CloseNPCShop: Phyria</Task> 
+  <Task>Goto WorldNav: -3577.47,313.61,-73.28</Task>
+  <Task>OpenNPCWarehouse: Pavino Greko</Task>
+  <Task>PutInWarehouse: Silver Coins, PartialOK</Task>
+  <Task>PutInWarehouse: Silver Key, PartialOK</Task>
+  <Task>PutInWarehouse: Ancient Relic Crystal Shard, PartialOK</Task>
+  <Task>CloseNPCWarehouse: True</Task> 
+  <Task>Press Key(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Key(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Key(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Key(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Key(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Key(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Key(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Key(s): 0</Task>
+  <Task>Rest: 100</Task>
+  <Task>Press Key(s): 0</Task>
+  <Task>Rest: 1000</Task>  
+  <Task>Goto Task Number: 1</Task>
+</TaskList>
